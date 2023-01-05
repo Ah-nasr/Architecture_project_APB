@@ -1,0 +1,104 @@
+C:/Users/ahmed/Desktop/finalfinalfinal/receiver.v {1 {vlog -work work C:/Users/ahmed/Desktop/finalfinalfinal/receiver.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module receiver
+
+Top level modules:
+	receiver
+
+} {} {}} C:/Users/ahmed/Desktop/finalfinalfinal/UART_APB.v {1 {vlog -work work C:/Users/ahmed/Desktop/finalfinalfinal/UART_APB.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module receiver
+-- Compiling module Transmitter
+-- Compiling module fifo
+-- Compiling module baud_gen
+-- Compiling module UART
+-- Compiling module UART_APB_interface
+-- Compiling module UART_APB
+
+Top level modules:
+	UART_APB
+
+} {} {}} C:/Users/ahmed/Desktop/finalfinalfinal/UART_controller.v {1 {vlog -work work C:/Users/ahmed/Desktop/finalfinalfinal/UART_controller.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module receiver
+-- Compiling module Transmitter
+-- Compiling module fifo
+-- Compiling module baud_gen
+-- Compiling module UART
+
+Top level modules:
+	UART
+
+} {} {}} C:/Users/ahmed/Desktop/finalfinalfinal/gpio.v {1 {vlog -work work C:/Users/ahmed/Desktop/finalfinalfinal/gpio.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module GPIO
+
+Top level modules:
+	GPIO
+
+} {} {}} C:/Users/ahmed/Desktop/finalfinalfinal/piso.v {1 {vlog -work work C:/Users/ahmed/Desktop/finalfinalfinal/piso.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Piso
+
+Top level modules:
+	Piso
+
+} {} {}} C:/Users/ahmed/Desktop/finalfinalfinal/sipo.v {1 {vlog -work work C:/Users/ahmed/Desktop/finalfinalfinal/sipo.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module sipo
+
+Top level modules:
+	sipo
+
+} {} {}} C:/Users/ahmed/Desktop/finalfinalfinal/APB_bus.v {1 {vlog -work work C:/Users/ahmed/Desktop/finalfinalfinal/APB_bus.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module master_bridge
+
+Top level modules:
+	master_bridge
+
+} {} {}} C:/Users/ahmed/Desktop/finalfinalfinal/APB_Protocol.v {1 {vlog -work work C:/Users/ahmed/Desktop/finalfinalfinal/APB_Protocol.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module master_bridge
+-- Compiling module GPIO
+-- Compiling module receiver
+-- Compiling module Transmitter
+-- Compiling module fifo
+-- Compiling module baud_gen
+-- Compiling module UART
+-- Compiling module UART_APB_interface
+-- Compiling module UART_APB
+-- Compiling module APB_Protcol
+
+Top level modules:
+	APB_Protcol
+
+} {} {}} C:/Users/ahmed/Desktop/finalfinalfinal/fifo.v {1 {vlog -work work C:/Users/ahmed/Desktop/finalfinalfinal/fifo.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module fifo
+
+Top level modules:
+	fifo
+
+} {} {}} C:/Users/ahmed/Desktop/finalfinalfinal/baud_rate_generator.v {1 {vlog -work work C:/Users/ahmed/Desktop/finalfinalfinal/baud_rate_generator.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module baud_gen
+
+Top level modules:
+	baud_gen
+
+} {} {}} C:/Users/ahmed/Desktop/finalfinalfinal/transmitter.v {1 {vlog -work work C:/Users/ahmed/Desktop/finalfinalfinal/transmitter.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Transmitter
+
+Top level modules:
+	Transmitter
+
+} {} {}} C:/Users/ahmed/Desktop/finalfinalfinal/UART_APB_interface.v {1 {vlog -work work C:/Users/ahmed/Desktop/finalfinalfinal/UART_APB_interface.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module UART_APB_interface
+
+Top level modules:
+	UART_APB_interface
+
+} {} {}}

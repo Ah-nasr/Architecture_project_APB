@@ -1,0 +1,122 @@
+{E:/computer arch/New folder/Final-tb.v} {2 {vlog -work work {E:\computer arch\New folder\Final-tb.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module master_bridge
+-- Compiling module GPIO
+-- Compiling module receiver
+-- Compiling module Transmitter
+-- Compiling module fifo
+-- Compiling module baud_gen
+-- Compiling module UART
+** Warning: UART-controller.v(58): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+-- Compiling module UART_APB_interface
+-- Compiling module UART_APB
+-- Compiling module APB_Protcol
+-- Compiling module APB_Protocol_tb
+
+Top level modules:
+	APB_Protocol_tb
+
+} {} {}} {E:/computer arch/New folder/UART-controller.v} {2 {vlog -work work {E:/computer arch/New folder/UART-controller.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module receiver
+-- Compiling module Transmitter
+-- Compiling module fifo
+-- Compiling module baud_gen
+-- Compiling module UART
+** Warning: E:/computer arch/New folder/UART-controller.v(58): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+
+Top level modules:
+	UART
+
+} {} {}} {E:/computer arch/New folder/receiver.v} {1 {vlog -work work {E:/computer arch/New folder/receiver.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module receiver
+
+Top level modules:
+	receiver
+
+} {} {}} {E:/computer arch/New folder/baud-rate-generator.v} {1 {vlog -work work {E:/computer arch/New folder/baud-rate-generator.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module baud_gen
+
+Top level modules:
+	baud_gen
+
+} {} {}} {E:/computer arch/New folder/UART-APB-interface.v} {1 {vlog -work work {E:/computer arch/New folder/UART-APB-interface.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module UART_APB_interface
+
+Top level modules:
+	UART_APB_interface
+
+} {} {}} {E:/computer arch/New folder/piso.v} {1 {vlog -work work {E:/computer arch/New folder/piso.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Piso
+
+Top level modules:
+	Piso
+
+} {} {}} {E:/computer arch/New folder/sipo.v} {1 {vlog -work work {E:/computer arch/New folder/sipo.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module sipo
+
+Top level modules:
+	sipo
+
+} {} {}} {E:/computer arch/New folder/APB_Protocol.v} {2 {vlog -work work {E:\computer arch\New folder\APB_Protocol.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module master_bridge
+-- Compiling module GPIO
+-- Compiling module receiver
+-- Compiling module Transmitter
+-- Compiling module fifo
+-- Compiling module baud_gen
+-- Compiling module UART
+** Warning: UART-controller.v(58): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+-- Compiling module UART_APB_interface
+-- Compiling module UART_APB
+-- Compiling module APB_Protcol
+
+Top level modules:
+	APB_Protcol
+
+} {} {}} {E:/computer arch/New folder/APB_bus.v} {1 {vlog -work work {E:\computer arch\New folder\APB_bus.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module master_bridge
+
+Top level modules:
+	master_bridge
+
+} {} {}} {E:/computer arch/New folder/fifo.v} {1 {vlog -work work {E:/computer arch/New folder/fifo.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module fifo
+
+Top level modules:
+	fifo
+
+} {} {}} {E:/computer arch/New folder/transmitter.v} {1 {vlog -work work {E:/computer arch/New folder/transmitter.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Transmitter
+
+Top level modules:
+	Transmitter
+
+} {} {}} {E:/computer arch/New folder/UART-APB.v} {2 {vlog -work work {E:/computer arch/New folder/UART-APB.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module receiver
+-- Compiling module Transmitter
+-- Compiling module fifo
+-- Compiling module baud_gen
+-- Compiling module UART
+** Warning: UART-controller.v(58): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+-- Compiling module UART_APB_interface
+-- Compiling module UART_APB
+
+Top level modules:
+	UART_APB
+
+} {} {}}

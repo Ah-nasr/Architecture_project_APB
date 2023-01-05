@@ -1,0 +1,306 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1
+vAPB_Bridge
+Z1 !s100 C?d:8>0Vd@BJUT`g5R[fP2
+Z2 IV<@3SERIC8;kcg^AoH[_R1
+Z3 VR67BSPKJ>Ga5k]l[I269R0
+Z4 dE:\computer arch\New folder
+Z5 w1672609820
+Z6 FAPB_bus.v
+Z7 8E:/computer arch/New folder/Final-tb.v
+Z8 FE:/computer arch/New folder/Final-tb.v
+L0 1
+Z9 OV;L;10.1d;51
+r1
+31
+Z10 !s108 1672611079.127000
+Z11 !s107 UART-APB-interface.v|baud-rate-generator.v|fifo.v|transmitter.v|receiver.v|UART-controller.v|UART-APB.v|gpio.v|APB_bus.v|APB_Protocol.v|E:/computer arch/New folder/Final-tb.v|
+Z12 !s90 -reportprogress|300|-work|work|E:/computer arch/New folder/Final-tb.v|
+Z13 o-work work -O0
+Z14 n@a@p@b_@bridge
+!i10b 1
+!s85 0
+!s101 -O0
+vAPB_Protcol
+Z15 Io7B@1DO95d_JIRGZSM:1L1
+Z16 V_lDM5FI]I:1^W7<[`o54;0
+Z17 dC:\Users\ahmed\Desktop\finalfinalfinal
+Z18 w1672842913
+Z19 FAPB_Protocol.v
+Z20 8C:/Users/ahmed/Desktop/finalfinalfinal/Final-tb.v
+Z21 FC:/Users/ahmed/Desktop/finalfinalfinal/Final-tb.v
+L0 7
+R9
+r1
+31
+Z22 !s108 1672912896.536000
+Z23 !s107 UART_APB_interface.v|baud_rate_generator.v|fifo.v|transmitter.v|receiver.v|UART_controller.v|UART_APB.v|gpio.v|APB_bus.v|APB_Protocol.v|C:/Users/ahmed/Desktop/finalfinalfinal/Final-tb.v|
+Z24 !s90 -reportprogress|300|-work|work|C:/Users/ahmed/Desktop/finalfinalfinal/Final-tb.v|
+R13
+Z25 n@a@p@b_@protcol
+Z26 !s100 Tg>RBe0XBcKeji2OL0?Qk2
+!i10b 1
+!s85 0
+!s101 -O0
+vAPB_Protocol_tb
+Z27 IkA9H>Z6T9[jGie6k4fnH52
+Z28 ViReF;BacOH`aimmb3dlPk3
+R17
+R18
+R20
+R21
+L0 5
+R9
+r1
+31
+R22
+R23
+R24
+R13
+Z29 n@a@p@b_@protocol_tb
+Z30 !s100 VGh>fZBIJXCD@ieQGo:Ef0
+!i10b 1
+!s85 0
+!s101 -O0
+vbaud_gen
+Z31 !s100 nI1V1O<nPlRPPkQ4blMF_0
+Z32 ILEheh3dAh@[U597W1?2=?3
+Z33 VT7ROQj=;GITPj:m[;O1_B1
+R17
+Z34 w1672837363
+Z35 Fbaud_rate_generator.v
+Z36 8C:/Users/ahmed/Desktop/finalfinalfinal/UART_controller.v
+Z37 FC:/Users/ahmed/Desktop/finalfinalfinal/UART_controller.v
+L0 1
+R9
+r1
+31
+Z38 !s108 1672912898.080000
+Z39 !s107 baud_rate_generator.v|fifo.v|transmitter.v|receiver.v|C:/Users/ahmed/Desktop/finalfinalfinal/UART_controller.v|
+Z40 !s90 -reportprogress|300|-work|work|C:/Users/ahmed/Desktop/finalfinalfinal/UART_controller.v|
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vfifo
+Z41 !s100 LZ`CHZUcAc1?5i`]Dk[=03
+Z42 IRJIcJBZEJzT`1231aZTFf0
+Z43 VCmOFEOPCHR@0Km;mYnV`P2
+R17
+R34
+Z44 Ffifo.v
+R36
+R37
+L0 1
+R9
+r1
+31
+R38
+R39
+R40
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vGPIO
+Z45 ImIPI?BIKob[I2n;=j[8mn0
+Z46 VYilQ@Xo5z5kYVN`hg15ZJ1
+R17
+Z47 w1672836011
+Z48 8C:/Users/ahmed/Desktop/finalfinalfinal/gpio.v
+Z49 FC:/Users/ahmed/Desktop/finalfinalfinal/gpio.v
+L0 1
+R9
+r1
+31
+R13
+Z50 n@g@p@i@o
+Z51 !s100 f54_JongI^GZdEa[e?Q463
+Z52 !s108 1672912896.933000
+Z53 !s107 C:/Users/ahmed/Desktop/finalfinalfinal/gpio.v|
+Z54 !s90 -reportprogress|300|-work|work|C:/Users/ahmed/Desktop/finalfinalfinal/gpio.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmaster_bridge
+Z55 !s100 Y7GkBkOkzjohCkUZnHb800
+Z56 I^B>VR0hOX@kCDMG7[_4?H0
+Z57 VH32GTSl4ScPU_ei7oCC@d3
+R17
+R18
+R6
+R20
+R21
+L0 1
+R9
+r1
+31
+R22
+R23
+R24
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vmaster_bridge_tb
+!i10b 1
+Z58 !s100 Phgk@dN^BFN<9SDC@=XG81
+Z59 I@Y49:eR2>cNDLSa:7R7I11
+Z60 VT:diH26`VJ8BT]ZhfZ]eE0
+R17
+Z61 w1672912838
+Z62 8C:/Users/ahmed/Desktop/finalfinalfinal/hmmmm.v
+Z63 FC:/Users/ahmed/Desktop/finalfinalfinal/hmmmm.v
+L0 3
+R9
+r1
+!s85 0
+31
+!s108 1672912898.307000
+!s107 C:/Users/ahmed/Desktop/finalfinalfinal/hmmmm.v|
+Z64 !s90 -reportprogress|300|-work|work|C:/Users/ahmed/Desktop/finalfinalfinal/hmmmm.v|
+!s101 -O0
+R13
+vPiso
+Z65 !s100 QiNl<?=<]j;nMDVQM@bHn0
+Z66 I[KBZM_8;I^hE=F2zI4eVM3
+Z67 VU11TkfnFQE;;6OXFhhg9<3
+R17
+R47
+Z68 8C:/Users/ahmed/Desktop/finalfinalfinal/piso.v
+Z69 FC:/Users/ahmed/Desktop/finalfinalfinal/piso.v
+L0 1
+R9
+r1
+31
+Z70 !s90 -reportprogress|300|-work|work|C:/Users/ahmed/Desktop/finalfinalfinal/piso.v|
+R13
+Z71 n@piso
+Z72 !s108 1672912897.074000
+Z73 !s107 C:/Users/ahmed/Desktop/finalfinalfinal/piso.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vreceiver
+Z74 !s100 ;NRY7`<FNJ<QUeRe^n3MZ2
+Z75 I`no6?JEW9gTBY3d@FoYzo3
+Z76 V3;GhdjHChOBc0N=o92Rk70
+R17
+R34
+Z77 Freceiver.v
+R36
+R37
+L0 3
+R9
+r1
+31
+R38
+R39
+R40
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vsipo
+Z78 !s100 Kk^;NZ7OV1PYmL7G`l<QR1
+Z79 IPBPS?]1RhoAd^RCe88U];3
+Z80 Vm_:55UDAXf;U5cU0RME;<2
+R17
+R47
+Z81 8C:/Users/ahmed/Desktop/finalfinalfinal/sipo.v
+Z82 FC:/Users/ahmed/Desktop/finalfinalfinal/sipo.v
+L0 1
+R9
+r1
+31
+Z83 !s90 -reportprogress|300|-work|work|C:/Users/ahmed/Desktop/finalfinalfinal/sipo.v|
+R13
+Z84 !s108 1672912897.418000
+Z85 !s107 C:/Users/ahmed/Desktop/finalfinalfinal/sipo.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vTransmitter
+Z86 !s100 X5SBR@>eCf?Bk0MJC?m3f3
+Z87 IbBS40_jEKG6ziLd>CTL1K1
+Z88 VUY>F3@onH3Le;IDZ;YPXo2
+R17
+R34
+Z89 Ftransmitter.v
+R36
+R37
+L0 2
+R9
+r1
+31
+R38
+R39
+R40
+R13
+Z90 n@transmitter
+!i10b 1
+!s85 0
+!s101 -O0
+vUART
+Z91 ImHQo_B[;eih_^L62gd1Ok2
+Z92 VEl;f8oi[E=LcgDNIW6elP1
+R17
+R34
+R36
+R37
+L0 6
+R9
+r1
+31
+R38
+R39
+R40
+R13
+Z93 n@u@a@r@t
+!i10b 1
+Z94 !s100 KcYA]>b[>OXn<9n4T<R_S2
+!s85 0
+!s101 -O0
+vUART_APB
+Z95 IEaH`JIT7zF5<<lQl:@5@:3
+Z96 VY5OF:In^G_7aHKK`ce9BN2
+R17
+Z97 w1672837402
+Z98 8C:/Users/ahmed/Desktop/finalfinalfinal/UART_APB.v
+Z99 FC:/Users/ahmed/Desktop/finalfinalfinal/UART_APB.v
+L0 4
+R9
+r1
+31
+Z100 !s108 1672912897.654000
+Z101 !s107 UART_APB_interface.v|baud_rate_generator.v|fifo.v|transmitter.v|receiver.v|UART_controller.v|C:/Users/ahmed/Desktop/finalfinalfinal/UART_APB.v|
+Z102 !s90 -reportprogress|300|-work|work|C:/Users/ahmed/Desktop/finalfinalfinal/UART_APB.v|
+R13
+Z103 n@u@a@r@t_@a@p@b
+Z104 !s100 czYL37<haZLOoP]2BiaPI3
+!i10b 1
+!s85 0
+!s101 -O0
+vUART_APB_interface
+Z105 Ia3VS85MdccVfTejS4@4ZT0
+Z106 VV5UENe?PYdfW3LAD@X4jc0
+R17
+R47
+Z107 8C:/Users/ahmed/Desktop/finalfinalfinal/UART_APB_interface.v
+Z108 FC:/Users/ahmed/Desktop/finalfinalfinal/UART_APB_interface.v
+L0 2
+R9
+r1
+31
+R13
+Z109 n@u@a@r@t_@a@p@b_interface
+Z110 !s100 h4H8b^DKOlm@@i<^A8Kc[2
+Z111 !s108 1672912897.981000
+Z112 !s107 C:/Users/ahmed/Desktop/finalfinalfinal/UART_APB_interface.v|
+Z113 !s90 -reportprogress|300|-work|work|C:/Users/ahmed/Desktop/finalfinalfinal/UART_APB_interface.v|
+!i10b 1
+!s85 0
+!s101 -O0

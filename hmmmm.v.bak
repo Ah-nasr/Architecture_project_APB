@@ -1,0 +1,117 @@
+`timescale 1ns/1ps
+
+module master_bridge_tb;
+
+// Inputs
+reg pclk;
+reg penable_master;
+reg pwrite_Master;
+reg transfer_Master;
+reg Reset;
+reg [1:0] Psel;
+reg [31:0] write_paddr_Master;
+reg [31:0] read_paddr_Master;
+reg [31:0] write_data_Master;
+reg pready_slave;
+reg [31:0] prdata;
+
+// Outputs
+wire pwrite;
+wire penable;
+wire [31:0] pwdata;
+wire [31:0] paddr;
+wire PSEL1;
+wire PSEL2;
+wire [31:0] apb_read_data;
+
+// Instantiate the module
+master_bridge UUT (
+  .pclk(pclk),
+  .penable_master(penable_master),
+  .pwrite_Master(pwrite_Master),
+  .transfer_Master(transfer_Master),
+  .Reset(Reset),
+  .Psel(Psel),
+  .write_paddr_Master(write_paddr_Master),
+  .read_paddr_Master(read_paddr_Master),
+  .write_data_Master(write_data_Master),
+  .pready_slave(pready_slave),
+  .prdata(prdata),
+  .pwrite(pwrite),
+  .penable(penable),
+  .pwdata(pwdata),
+  .paddr(paddr),
+  .PSEL1(PSEL1),
+  .PSEL2(PSEL2),
+  .apb_read_data(apb_read_data)
+);
+
+// Initialize input values
+initial begin
+  pclk = 0;
+  penable_master = 0;
+  pwrite_Master = 0;
+  transfer_Master = 0;
+  Reset = 1;
+  Psel = 0;
+  write_paddr_Master = 0;
+  read_paddr_Master = 0;
+  write_data_Master = 0;
+  pready_slave = 0;
+  prdata = 0;
+end
+
+// Toggle clock
+always #5 pclk = ~pclk;
+
+// Test case 1: write to slave
+initial begin
+  // Reset the module
+  Reset = 1;
+  #10 Reset = 0;
+
+  // Initiate a write transfer
+  pwrite_Master = 1;
+  transfer_Master = 1;
+  penable_master = 1;
+  write_paddr_Master = 16'h1234;
+  write_data_Master = 32'h01234567;
+  Psel = 1;
+  pready_slave = 1;
+
+  // Wait for the transfer to complete
+  #10;
+
+  // Check that the correct values were sent to the slave
+  assert(pwrite == 1);
+  assert(penable == 1);
+  assert(pwdata == 32'h01234567);
+  assert(paddr == 16'h1234);
+  assert(PSEL1 == 1);
+  assert(PSEL == 0);
+end
+  // Test case 2: read from slave
+initial begin
+  // Initiate a read transfer
+  pwrite_Master = 0;
+  transfer_Master = 1;
+  penable_master = 1;
+  read_paddr_Master = 16'h5678;
+  Psel = 1;
+  pready_slave = 1;
+  prdata = 32'h89abcdef;
+
+  // Wait for the transfer to complete
+  #10;
+
+  // Check that the correct values were sent to the slave and that the correct data was retrieved from the slave
+  assert(pwrite == 0);
+  assert(penable == 1);
+  assert(paddr == 16'h5678);
+  assert(PSEL1 == 1);
+  assert(apb_read_data == 32'h89abcdef);
+end
+
+endmodule
+
+
